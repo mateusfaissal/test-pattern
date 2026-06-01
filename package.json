@@ -15,6 +15,11 @@
   "jest": {
     "transform": {
       "^.+\\.js$": "babel-jest"
-    }
+    },
+    "transformIgnorePatterns": [],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__tests__/builders/"
+    ]
   }
 }
